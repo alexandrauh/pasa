@@ -1,0 +1,38 @@
+h1 {
+
+}
+
+h2 {
+
+}
+
+h4 {
+
+}
+
+h6 {
+
+}
+
+p {
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+a:link {
+  color: #999;
+  text-decoration: none;
+}
+
+a:visited {
+    color: #999;
+}
+
+a:hover {
+    color: #ccc;
+}
+
+a:active {
+    color: #ccc;
+}
