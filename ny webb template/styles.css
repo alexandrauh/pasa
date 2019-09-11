@@ -1,17 +1,17 @@
 h1 {
-
+  font-family: 'Open Sans', sans-serif;
 }
 
 h2 {
-
+  font-family: 'Open Sans', sans-serif;
 }
 
 h4 {
-
+  font-family: 'Open Sans', sans-serif;
 }
 
 h6 {
-
+  font-family: 'Open Sans', sans-serif;
 }
 
 p {
@@ -19,20 +19,70 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 
+.logo {
+    margin: auto;
+    max-width: 100%;
+    text-align: center;
+}
+
+nav {
+    margin: auto;
+    max-width: 100%;
+    text-align: center;
+}
+
+
+.nav-link {
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+}
+
+.header-img{
+    width: 100%;
+}
+
+.header {
+    background-image: url("/images/laptop.jpg");
+    background-size: cover;
+    color: white;
+    height: 500px;
+    display: flex;
+
+}
+
+.slogan {
+    margin: auto;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+
+}
+
+.primary-panel {
+    background-color: gainsboro;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    
+}
 
 a:link {
-  color: #999;
+  color: #ad0966;
   text-decoration: none;
 }
 
 a:visited {
-    color: #999;
+    color: #ad0966;
 }
 
 a:hover {
-    color: #ccc;
+    color: #d9278c;
 }
 
 a:active {
-    color: #ccc;
+    color: #ad0966;
 }
