@@ -92,7 +92,7 @@ a:active {
 }
 a.footer-link:link {
   color: white;
-  text-decoration: none;
+  text-decoration: none;  
 }
 
 a.footer-link:visited {
@@ -112,7 +112,4 @@ color: white;
 }
 .white-text {
     color: white;
-}
-.center {
-    text-align: center;
 }
