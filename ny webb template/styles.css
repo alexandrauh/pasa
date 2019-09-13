@@ -90,3 +90,26 @@ a:hover {
 a:active {
     color: #ad0966;
 }
+a.footer-link:link {
+  color: white;
+  text-decoration: none;
+}
+
+a.footer-link:visited {
+    color: white;
+}
+
+a.footer-link:hover {
+    color: white;
+}
+
+a.footer-link:active {
+    color: white;
+}
+footer{ 
+background-color:#ad0966 ;
+color: white;
+}
+.white-text {
+    color: white;
+}
