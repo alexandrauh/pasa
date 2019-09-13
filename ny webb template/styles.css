@@ -46,7 +46,7 @@ nav {
 }
 
 .header {
-   /* background-image: url("/images/laptop.jpg");*/
+   background-image: url('./images/laptop.jpg');
     background-size: cover;
     color: white;
     height: 500px;
