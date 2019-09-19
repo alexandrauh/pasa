@@ -63,7 +63,6 @@ nav {
 section {
     display: flex;
     justify-content: center;
-
 }
 
 .primary-panel {
@@ -74,7 +73,10 @@ section {
     text-align: center;
     
 }
-
+.om-oss {
+    margin: auto;
+    text-align: center;
+}
 a:link {
   color: #ad0966;
   text-decoration: none;
@@ -91,25 +93,43 @@ a:hover {
 a:active {
     color: #ad0966;
 }
+
+.footer-link {
+    margin: 10px;
+    font-size: 30px;
+}
+
 a.footer-link:link {
   color: white;
   text-decoration: none;  
 }
 
 a.footer-link:visited {
-    color: white;
+    color: #ffcce9;
 }
 
 a.footer-link:hover {
-    color: white;
+    color: #ffcce9;
 }
 
 a.footer-link:active {
     color: white;
 }
 footer{ 
-background-color:#ad0966 ;
-color: white;
+  /*  justify-content: center;*/
+    background-color:#ad0966 ;
+    color: white;
+    padding: 30px;
+}
+
+.center{ 
+    display: flex;
+}
+
+.footer-content {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
 }
 .white-text {
     color: white;
