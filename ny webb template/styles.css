@@ -19,7 +19,6 @@ h6 {
 }
 
 p {
-  color: #333;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -63,20 +62,29 @@ nav {
 section {
     display: flex;
     justify-content: center;
+    
 }
 
 .primary-panel {
-    background-color: gainsboro;
+    background-color: #ad0966;
     justify-content: space-evenly;
     padding: 20px;
     margin: 10px;
     text-align: center;
-    
+    color: white;
 }
+
+.white-button {
+    background-color: white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 25px;
+}
+
 .om-oss {
     margin: auto;
     text-align: center;
 }
+
 a:link {
   color: #ad0966;
   text-decoration: none;
