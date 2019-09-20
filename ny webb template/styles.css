@@ -123,6 +123,7 @@ a.footer-link:hover {
 a.footer-link:active {
     color: white;
 }
+
 footer{ 
   /*  justify-content: center;*/
     background-color:#ad0966 ;
@@ -139,6 +140,7 @@ footer{
     text-align: center;
     padding: 10px;
 }
+
 .white-text {
     color: white;
 }
