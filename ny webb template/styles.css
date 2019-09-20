@@ -82,6 +82,9 @@ nav {
 section {
     display: flex;
     justify-content: center;
+}
+
+.frontpage-top {
     background-color: #ffe3ec; 
     padding-bottom: 40px;
 }
@@ -169,8 +172,47 @@ a.white-link:active {
     color: white;
 }
 
+.contact-profile {
+    background-color: #f364a2;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    font-size: 0.8em;
+    display: flex;
+}
+
+.contact-profile h3 {
+    margin: 8px 0px 0px 0px;
+}
+
+.contact-profile p {
+    margin: 5px 0px 0px 0px;
+}
+
+.fa-user-circle {
+    font-size: 80px;
+    padding-right: 10px;
+}
+
+.contact {
+    padding: 100px 0px 100px 0px;
+}
+
+.contact h1 {
+    color: #333;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.adress {
+    text-align:center;
+    color: #333;
+    font-size: 0.9em;
+    padding-top: 30px;
+}
+
 footer{ 
-  /*  justify-content: center;*/
     background-color: #bc0a6f;
     color: white;
     padding: 30px;
@@ -178,6 +220,7 @@ footer{
 
 .center{ 
     display: flex;
+    justify-content: center;
 }
 
 .footer-content {
