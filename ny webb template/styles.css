@@ -1,5 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif; 
+    line-height: 1.2em;
     
 }
 
@@ -107,8 +108,8 @@ article {
     color: #fff;
 }
 
-.primary-panel p {
-    padding-bottom: 20px;
+.teaser-text {
+    padding-bottom: 15px;
 }
 
 .white-button {
