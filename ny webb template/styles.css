@@ -1,5 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif; 
+    
 }
 
 h1 {
@@ -22,23 +23,40 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 
+.primary-bg {
+    background-color: #bc0a6f;
+}
+
+a.nav-link:link { color: #fff; text-decoration:none; }
+a.nav-link:visited { color: #fff; text-decoration:none; }
+a.nav-link:hover { color: #ffcce9; text-decoration:none;   border-bottom: 1px solid #ffcce9; }
+a.nav-link:active { color: #ffcce9; text-decoration:none; }
+
 .logo {
     margin: auto;
     max-width: 100%;
     text-align: center;
+    padding: 20px 0px 0px 0px;
+    font-family: 'Kalam', cursive;
+}
+
+.logo h1 {
+    font-family: 'Kalam', cursive;
+    font-size: 40px;
+    margin-bottom: 15px;
 }
 
 nav {
     margin: auto;
     max-width: 100%;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 
 .nav-link {
     font-family: 'Open Sans', sans-serif;
-    padding: 10px;
+    padding: 7px;
 }
 
 
@@ -63,7 +81,8 @@ nav {
 section {
     display: flex;
     justify-content: center;
-    
+    background-color: #ffe3ec; 
+    padding-bottom: 40px;
 }
 
 article {
@@ -79,69 +98,79 @@ article {
 }
 
 .primary-panel {
-    background-color: #ad0966;
+    background-color: #f364a2;
     justify-content: space-evenly;
     padding: 20px;
     margin: -50px 30px 0px 0px;
     text-align: center;
     font-size: 14px;
-    color: #ffe3ec;
+    color: #fff;
+}
+
+.primary-panel p {
+    padding-bottom: 20px;
 }
 
 .white-button {
     background-color: white;
-    padding: 5px 20px 5px 20px;
+    padding: 7px 20px 7px 20px;
     border-radius: 25px;
 }
 
+a.white-button:link { color: #bc0a6f; text-decoration:none; }
+a.white-button:visited { color: #bc0a6f; text-decoration:none; }
+a.white-button:hover { color: #870557; text-decoration:none; background-color: #ffe3ec; }
+a.white-button:active { color: #bc0a6f; text-decoration:none; }
+
 .about {
-    padding: 100px;
+    padding: 80px 100px 100px 100px;
     text-align: center;
     width: 700px;
+    color: #333;
 }
 
 a:link {
-  color: #ad0966;
+  color: #bc0a6f;
   text-decoration: none;
 }
 
 a:visited {
-    color: #ad0966;
+    color: #bc0a6f;
 }
 
 a:hover {
-    color: #d9278c;
+    color: #e8368f;
 }
 
 a:active {
-    color: #ad0966;
+    color: #bc0a6f;
 }
 
-.footer-link {
+.social-icon {
     margin: 10px;
     font-size: 30px;
 }
 
-a.footer-link:link {
+a.white-link:link {
   color: white;
   text-decoration: none;  
 }
 
-a.footer-link:visited {
+a.white-link:visited {
+    color: white;
+}
+
+a.white-link:hover {
     color: #ffcce9;
 }
 
-a.footer-link:hover {
-    color: #ffcce9;
-}
-
-a.footer-link:active {
+a.white-link:active {
     color: white;
 }
 
 footer{ 
   /*  justify-content: center;*/
-    background-color:#ad0966 ;
+    background-color: #bc0a6f;
     color: white;
     padding: 30px;
 }
