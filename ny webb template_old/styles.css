@@ -1,0 +1,252 @@
+body {
+    font-family: 'Open Sans', sans-serif; 
+    line-height: 1.2em;
+    
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.primary-bg {
+    background-color: #bc0a6f;
+}
+
+a.nav-link:link { color: #fff; text-decoration:none; }
+a.nav-link:visited { color: #fff; text-decoration:none; }
+a.nav-link:hover { color: #ffcce9; text-decoration:none;   border-bottom: 1px solid #ffcce9; }
+a.nav-link:active { color: #ffcce9; text-decoration:none; }
+
+.logo {
+    margin: auto;
+    max-width: 100%;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    font-family: 'Kalam', cursive;
+}
+
+.logo h1 {
+    font-family: 'Kalam', cursive;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+nav {
+    margin: auto;
+    max-width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+.nav-link {
+    font-family: 'Open Sans', sans-serif;
+    padding: 7px;
+}
+
+
+.header {
+    background: transparent;
+    color: white;
+    height: 500px;
+    display: flex;
+
+}
+
+.parallax-window {
+    background: transparent;
+    min-height: 500px;
+}
+
+.slogan {
+    margin: auto;
+    text-align: right;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.frontpage-top {
+    background-color: #ffe3ec; 
+    padding-bottom: 40px;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 950px;
+}
+
+.primary-panel {
+    background-color: #f364a2;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: -50px 30px 0px 0px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+.teaser-text {
+    padding-bottom: 15px;
+}
+
+.white-button {
+    background-color: white;
+    padding: 7px 20px 7px 20px;
+    border-radius: 25px;
+}
+
+a.white-button:link { color: #bc0a6f; text-decoration:none; }
+a.white-button:visited { color: #bc0a6f; text-decoration:none; }
+a.white-button:hover { color: #870557; text-decoration:none; background-color: #ffe3ec; }
+a.white-button:active { color: #bc0a6f; text-decoration:none; }
+
+.about {
+    padding: 80px 100px 100px 100px;
+    text-align: center;
+    width: 700px;
+    color: #333;
+}
+
+a:link {
+  color: #bc0a6f;
+  text-decoration: none;
+}
+
+a:visited {
+    color: #bc0a6f;
+}
+
+a:hover {
+    color: #e8368f;
+}
+
+a:active {
+    color: #bc0a6f;
+}
+
+.social-icon {
+    margin: 10px;
+    font-size: 30px;
+}
+
+a.white-link:link {
+  color: white;
+  text-decoration: none;  
+}
+
+a.white-link:visited {
+    color: white;
+}
+
+a.white-link:hover {
+    color: #ffcce9;
+}
+
+a.white-link:active {
+    color: white;
+}
+
+.contact-puff {
+    background-color: #f364a2;
+    padding: 30px;
+    margin: 10px;
+    color: white;
+    display: flex;
+}
+
+.contact-profile {
+    background-color: #f364a2;
+    width: 220px;
+    padding: 30px;
+    margin: 10px;
+    color: white;
+    font-size: 0.8em;
+    display: flex;
+}
+
+.contact-profile h3 {
+    margin: 8px 0px 0px 0px;
+}
+
+.contact-profile p {
+    margin: 5px 0px 0px 0px;
+}
+
+.fa-user-circle {
+    font-size: 80px;
+    padding-right: 10px;
+}
+
+.contact-top {
+    padding: 50px 0px 50px 0px;
+}
+
+.contact-bottom {
+    padding: 90px 0px 100px 0px;
+    background-color: #ffe3ec;
+}
+
+.contact-top h1 {
+    color: #333;
+
+    text-transform: uppercase;
+    padding-right: 10px;
+}
+
+.contact-profile a {
+    font-size: 20px;
+    padding: 5px 5px 0px 0px; 
+}
+
+.adress {
+    color: #333;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+footer{ 
+    background-color: #bc0a6f;
+    color: white;
+    padding: 30px;
+}
+
+.center{ 
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.white-text {
+    color: white;
+}
